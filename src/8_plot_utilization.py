@@ -7,7 +7,7 @@ import plotly.express as px
 import pandas as pd
 import plotly.graph_objects as go
 
-df = pd.read_csv("7_plot.csv")
+df = pd.read_csv("/Users/hsj/Desktop/utilisation-analysis/data/7_plot.csv")
 days = df.Date.unique()
 
 app = dash.Dash(__name__)
